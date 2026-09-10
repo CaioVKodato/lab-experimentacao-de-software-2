@@ -1,0 +1,3 @@
+radon>=6.0
+pandas>=2.0
+# jscpd requer Node.js: npm install -g jscpd  ou  npx jscpd (baixa automaticamente)
