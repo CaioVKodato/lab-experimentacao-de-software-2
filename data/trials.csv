@@ -2,3 +2,6 @@ trial_id,integrante,kata,tratamento,ordem,iniciado_em,encerrado_em,tempo_s,tempo
 Caio-K2-IA-1,Caio,K2,IA,1,,2026-09-17T21:21:07-03:00,360,6.00,false,7,7,1.0000,1,Claude,11,registrado a posteriori; tempo aproximado da sessao ate os 7 testes passarem
 Caio-K4-IA-2,Caio,K4,IA,2,,2026-09-17T21:27:23-03:00,300,5.00,false,9,9,1.0000,1,Claude,12,registrado a posteriori; tempo aproximado da sessao ate os 9 testes passarem
 Caio-K6-IA-3,Caio,K6,IA,3,,2026-09-17T21:31:45-03:00,300,5.00,false,8,8,1.0000,1,Claude,13,registrado a posteriori; tempo aproximado da sessao ate os 8 testes passarem
+Caio-K1-Manual-4,Caio,K1,Manual,4,,2026-09-17T21:47:26-03:00,240,4.00,false,10,10,1.0000,,,14,registrado a posteriori; tempo aproximado da sessao ate os 10 testes passarem
+Caio-K3-Manual-5,Caio,K3,Manual,5,,2026-09-17T21:47:26-03:00,300,5.00,false,8,8,1.0000,,,15,registrado a posteriori; tempo aproximado da sessao ate os 8 testes passarem
+Caio-K5-Manual-6,Caio,K5,Manual,6,,2026-09-17T21:50:23-03:00,300,5.00,false,8,8,1.0000,,,16,registrado a posteriori; tempo aproximado da sessao ate os 8 testes passarem
