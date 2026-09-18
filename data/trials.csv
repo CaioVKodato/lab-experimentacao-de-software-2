@@ -1,1 +1,2 @@
 trial_id,integrante,kata,tratamento,ordem,iniciado_em,encerrado_em,tempo_s,tempo_min,censurado,testes_passando,testes_totais,taxa_sucesso,n_prompts,assistente,issue,notas
+Caio-K2-IA-1,Caio,K2,IA,1,,2026-09-17T21:21:07-03:00,360,6.00,false,7,7,1.0000,1,Claude,11,registrado a posteriori; tempo aproximado da sessao ate os 7 testes passarem
