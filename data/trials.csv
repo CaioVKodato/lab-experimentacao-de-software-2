@@ -1,7 +1,19 @@
-trial_id,integrante,kata,tratamento,ordem,iniciado_em,encerrado_em,tempo_s,tempo_min,censurado,testes_passando,testes_totais,taxa_sucesso,n_prompts,assistente,issue,notas
-Caio-K2-IA-1,Caio,K2,IA,1,,2026-09-17T21:21:07-03:00,360,6.00,false,7,7,1.0000,1,Claude,11,registrado a posteriori; tempo aproximado da sessao ate os 7 testes passarem
-Caio-K4-IA-2,Caio,K4,IA,2,,2026-09-17T21:27:23-03:00,300,5.00,false,9,9,1.0000,1,Claude,12,registrado a posteriori; tempo aproximado da sessao ate os 9 testes passarem
-Caio-K6-IA-3,Caio,K6,IA,3,,2026-09-17T21:31:45-03:00,300,5.00,false,8,8,1.0000,1,Claude,13,registrado a posteriori; tempo aproximado da sessao ate os 8 testes passarem
-Caio-K1-Manual-4,Caio,K1,Manual,4,,2026-09-17T21:47:26-03:00,240,4.00,false,10,10,1.0000,,,14,registrado a posteriori; tempo aproximado da sessao ate os 10 testes passarem
-Caio-K3-Manual-5,Caio,K3,Manual,5,,2026-09-17T21:47:26-03:00,300,5.00,false,8,8,1.0000,,,15,registrado a posteriori; tempo aproximado da sessao ate os 8 testes passarem
-Caio-K5-Manual-6,Caio,K5,Manual,6,,2026-09-17T21:50:23-03:00,300,5.00,false,8,8,1.0000,,,16,registrado a posteriori; tempo aproximado da sessao ate os 8 testes passarem
+trial_id,integrante,kata,tratamento,ordem,iniciado_em,encerrado_em,tempo_s,tempo_min,censurado,testes_passando,testes_totais,taxa_sucesso,n_prompts,assistente,issue,notas,loc,duplicacao_pct
+Caio-K2-IA-1,Caio,K2,IA,1,,2026-09-17T21:21:07-03:00,360,6.00,false,7,7,1.0000,1,Claude,11,registrado a posteriori; tempo aproximado da sessao ate os 7 testes passarem,73,0.0000
+Caio-K4-IA-2,Caio,K4,IA,2,,2026-09-17T21:27:23-03:00,300,5.00,false,9,9,1.0000,1,Claude,12,registrado a posteriori; tempo aproximado da sessao ate os 9 testes passarem,75,0.0000
+Caio-K6-IA-3,Caio,K6,IA,3,,2026-09-17T21:31:45-03:00,300,5.00,false,8,8,1.0000,1,Claude,13,registrado a posteriori; tempo aproximado da sessao ate os 8 testes passarem,90,0.0000
+Caio-K1-Manual-4,Caio,K1,Manual,4,,2026-09-17T21:47:26-03:00,240,4.00,false,10,10,1.0000,,,14,registrado a posteriori; tempo aproximado da sessao ate os 10 testes passarem,16,0.0000
+Caio-K3-Manual-5,Caio,K3,Manual,5,,2026-09-17T21:47:26-03:00,300,5.00,false,8,8,1.0000,,,15,registrado a posteriori; tempo aproximado da sessao ate os 8 testes passarem,31,0.0000
+Caio-K5-Manual-6,Caio,K5,Manual,6,,2026-09-17T21:50:23-03:00,300,5.00,false,8,8,1.0000,,,16,registrado a posteriori; tempo aproximado da sessao ate os 8 testes passarem,39,0.0000
+Henrique-K1-IA-4,Henrique,K1,IA,4,,,,,,,,,,,17,tempo ainda nao registrado pelo integrante; LOC/duplicacao preenchidos na Issue #38,20,0.0000
+Henrique-K2-Manual-5,Henrique,K2,Manual,5,,,,,,,,,,,20,tempo ainda nao registrado pelo integrante; LOC/duplicacao preenchidos na Issue #38,17,0.0000
+Henrique-K3-Manual-6,Henrique,K3,Manual,6,,,,,,,,,,,21,tempo ainda nao registrado pelo integrante; LOC/duplicacao preenchidos na Issue #38,39,0.0000
+Henrique-K4-IA-1,Henrique,K4,IA,1,,,,,,,,,,,18,tempo ainda nao registrado pelo integrante; LOC/duplicacao preenchidos na Issue #38,17,0.0000
+Henrique-K5-IA-2,Henrique,K5,IA,2,,,,,,,,,,,19,tempo ainda nao registrado pelo integrante; LOC/duplicacao preenchidos na Issue #38,21,0.0000
+Henrique-K6-Manual-3,Henrique,K6,Manual,3,,,,,,,,,,,22,tempo ainda nao registrado pelo integrante; LOC/duplicacao preenchidos na Issue #38,24,0.0000
+Jonas-K6-IA-1,Jonas,K6,IA,1,,,,,,,,,,,23,tempo ainda nao registrado pelo integrante; LOC/duplicacao preenchidos na Issue #38,24,0.0000
+Jonas-K5-Manual-2,Jonas,K5,Manual,2,,,,,,,,,,,24,tempo ainda nao registrado pelo integrante; LOC/duplicacao preenchidos na Issue #38,30,0.0000
+Jonas-K4-Manual-3,Jonas,K4,Manual,3,,,,,,,,,,,25,tempo ainda nao registrado pelo integrante; LOC/duplicacao preenchidos na Issue #38,14,0.0000
+Jonas-K3-IA-4,Jonas,K3,IA,4,,,,,,,,,,,26,tempo ainda nao registrado pelo integrante; LOC/duplicacao preenchidos na Issue #38,34,0.0000
+Jonas-K2-IA-5,Jonas,K2,IA,5,,,,,,,,,,,27,tempo ainda nao registrado pelo integrante; LOC/duplicacao preenchidos na Issue #38,17,0.0000
+Jonas-K1-Manual-6,Jonas,K1,Manual,6,,,,,,,,,,,28,tempo ainda nao registrado pelo integrante; LOC/duplicacao preenchidos na Issue #38,14,0.0000
