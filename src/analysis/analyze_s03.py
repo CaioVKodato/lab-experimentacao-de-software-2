@@ -1,7 +1,9 @@
 """
 src/analysis/analyze_s03.py
-Análise estatística RQ1 (tempo) e RQ2 (taxa de sucesso) — Sprint S03
-Issue: #47
+Análise estatística RQ1/RQ2 (tempo, taxa) e RQ3 (estrutura) — Sprint S03
+
+RQ1/RQ2: Issue #47 (Henrique)
+RQ3: Issue #40 (Caio) — ver também ``python -m src.analysis.rq3``
 """
 
 from pathlib import Path
@@ -11,6 +13,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 from scipy import stats
+
+from src.analysis.rq3 import main as run_rq3
 
 ROOT = Path(__file__).resolve().parents[2]
 DATA_FILE = ROOT / "data" / "trials.csv"
@@ -324,7 +328,9 @@ def main():
     plot_barras_taxa(ia_tx, manual_tx)
     plot_strip_por_integrante(df)
     gerar_relatorio(df, stats_rq1, stats_rq2)
-    print("\nAnálise concluída.")
+    print("\n--- RQ3 (Issue #40) ---")
+    run_rq3()
+    print("\nAnalise concluida (RQ1/RQ2/RQ3).")
 
 
 if __name__ == "__main__":

@@ -1,3 +1,5 @@
 radon>=6.0
 pandas>=2.0
-# jscpd requer Node.js: npm install -g jscpd  ou  npx jscpd (baixa automaticamente)
+scipy>=1.11
+matplotlib>=3.8
+# jscpd via npx: jscpd@3.5.4 (Node.js >= 16)
