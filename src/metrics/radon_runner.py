@@ -5,8 +5,20 @@ from __future__ import annotations
 from pathlib import Path
 
 
+def _solucao_path(directory: Path) -> Path | None:
+    directory = Path(directory)
+    solucao = directory / "solucao.py" if directory.is_dir() else directory
+    if solucao.is_file() and solucao.name == "solucao.py":
+        return solucao
+    if directory.is_dir():
+        candidate = directory / "solucao.py"
+        if candidate.is_file():
+            return candidate
+    return None
+
+
 def compute_cc(directory: Path) -> float:
-    """Complexidade ciclomática média de todas as funções/métodos no diretório.
+    """Complexidade ciclomática média das funções/métodos de ``solucao.py``.
 
     Retorna 0.0 se não houver blocos ou se Radon não estiver instalado.
     """
@@ -15,33 +27,35 @@ def compute_cc(directory: Path) -> float:
     except ImportError:
         return 0.0
 
-    scores: list[float] = []
-    for py_file in sorted(directory.rglob("*.py")):
-        try:
-            code = py_file.read_text(encoding="utf-8", errors="replace")
-            blocks = cc_visit(code)
-            scores.extend(float(b.complexity) for b in blocks)
-        except Exception:
-            pass
+    solucao = _solucao_path(directory)
+    if solucao is None:
+        return 0.0
+
+    try:
+        code = solucao.read_text(encoding="utf-8", errors="replace")
+        blocks = cc_visit(code)
+        scores = [float(b.complexity) for b in blocks]
+    except Exception:
+        return 0.0
     return round(sum(scores) / len(scores), 4) if scores else 0.0
 
 
 def compute_mi(directory: Path) -> float:
-    """Maintainability Index médio dos arquivos .py no diretório.
+    """Maintainability Index de ``solucao.py``.
 
-    Retorna -1.0 se Radon não estiver instalado ou nenhum arquivo for analisável.
+    Retorna -1.0 se Radon não estiver instalado ou o arquivo for inanalisável.
     """
     try:
         from radon.metrics import mi_visit
     except ImportError:
         return -1.0
 
-    values: list[float] = []
-    for py_file in sorted(directory.rglob("*.py")):
-        try:
-            code = py_file.read_text(encoding="utf-8", errors="replace")
-            mi = mi_visit(code, multi=True)
-            values.append(float(mi))
-        except Exception:
-            pass
-    return round(sum(values) / len(values), 4) if values else -1.0
+    solucao = _solucao_path(directory)
+    if solucao is None:
+        return -1.0
+
+    try:
+        code = solucao.read_text(encoding="utf-8", errors="replace")
+        return round(float(mi_visit(code, multi=True)), 4)
+    except Exception:
+        return -1.0
