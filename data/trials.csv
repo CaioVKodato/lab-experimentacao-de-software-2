@@ -5,12 +5,12 @@ Caio-K6-IA-3,Caio,K6,IA,3,,2026-09-17T21:31:45-03:00,300,5.00,false,8,8,1.0000,1
 Caio-K1-Manual-4,Caio,K1,Manual,4,,2026-09-17T21:47:26-03:00,240,4.00,false,10,10,1.0000,,,14,registrado a posteriori; tempo aproximado da sessao ate os 10 testes passarem,16,9.0000,0.0000
 Caio-K3-Manual-5,Caio,K3,Manual,5,,2026-09-17T21:47:26-03:00,300,5.00,false,8,8,1.0000,,,15,registrado a posteriori; tempo aproximado da sessao ate os 8 testes passarem,31,10.0000,0.0000
 Caio-K5-Manual-6,Caio,K5,Manual,6,,2026-09-17T21:50:23-03:00,300,5.00,false,8,8,1.0000,,,16,registrado a posteriori; tempo aproximado da sessao ate os 8 testes passarem,39,4.0000,0.0000
-Henrique-K1-IA-4,Henrique,K1,IA,4,,,,,,,,,,,17,tempo ainda nao registrado pelo integrante; LOC/duplicacao preenchidos na Issue #38,20,10.0000,0.0000
-Henrique-K2-Manual-5,Henrique,K2,Manual,5,,,,,,,,,,,20,tempo ainda nao registrado pelo integrante; LOC/duplicacao preenchidos na Issue #38,17,5.0000,0.0000
-Henrique-K3-Manual-6,Henrique,K3,Manual,6,,,,,,,,,,,21,tempo ainda nao registrado pelo integrante; LOC/duplicacao preenchidos na Issue #38,39,8.0000,0.0000
-Henrique-K4-IA-1,Henrique,K4,IA,1,,,,,,,,,,,18,tempo ainda nao registrado pelo integrante; LOC/duplicacao preenchidos na Issue #38,17,4.0000,0.0000
-Henrique-K5-IA-2,Henrique,K5,IA,2,,,,,,,,,,,19,tempo ainda nao registrado pelo integrante; LOC/duplicacao preenchidos na Issue #38,21,2.5000,0.0000
-Henrique-K6-Manual-3,Henrique,K6,Manual,3,,,,,,,,,,,22,tempo ainda nao registrado pelo integrante; LOC/duplicacao preenchidos na Issue #38,24,7.0000,0.0000
+Henrique-K1-IA-4,Henrique,K1,IA,4,,,120,2.00,false,10,10,1.0000,1,Claude,17,tempo ainda nao registrado pelo integrante; LOC/duplicacao preenchidos na Issue #38,20,10.0000,0.0000
+Henrique-K2-Manual-5,Henrique,K2,Manual,5,,,960,16.00,false,7,7,1.0000,,,20,tempo ainda nao registrado pelo integrante; LOC/duplicacao preenchidos na Issue #38,17,5.0000,0.0000
+Henrique-K3-Manual-6,Henrique,K3,Manual,6,,,1140,19.00,false,8,8,1.0000,,,21,tempo ainda nao registrado pelo integrante; LOC/duplicacao preenchidos na Issue #38,39,8.0000,0.0000
+Henrique-K4-IA-1,Henrique,K4,IA,1,,,180,3.00,false,9,9,1.0000,2,Claude,18,tempo ainda nao registrado pelo integrante; LOC/duplicacao preenchidos na Issue #38,17,4.0000,0.0000
+Henrique-K5-IA-2,Henrique,K5,IA,2,,,90,1.50,false,8,8,1.0000,1,Claude,19,tempo ainda nao registrado pelo integrante; LOC/duplicacao preenchidos na Issue #38,21,2.5000,0.0000
+Henrique-K6-Manual-3,Henrique,K6,Manual,3,,,780,13.00,false,8,8,1.0000,,,22,tempo ainda nao registrado pelo integrante; LOC/duplicacao preenchidos na Issue #38,24,7.0000,0.0000
 Jonas-K6-Manual-1,Jonas,K6,Manual,1,,,1200,20.00,false,8,8,1.0000,,,23,tempo ainda nao registrado pelo integrante; LOC/duplicacao preenchidos na Issue #38,24,6.0000,0.0000
 Jonas-K5-IA-2,Jonas,K5,IA,2,,,120,2.00,false,8,8,1.0000,1,Claude,24,tempo ainda nao registrado pelo integrante; LOC/duplicacao preenchidos na Issue #38,30,4.0000,0.0000
 Jonas-K4-Manual-3,Jonas,K4,Manual,3,,,600,10.00,false,9,9,1.0000,,,25,tempo ainda nao registrado pelo integrante; LOC/duplicacao preenchidos na Issue #38,14,5.0000,0.0000
